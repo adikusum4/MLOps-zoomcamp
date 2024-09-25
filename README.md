@@ -1,3 +1,3 @@
 # MLOps-zoomcamp
 
-This is an example
+MLOps practicum
