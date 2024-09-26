@@ -12,6 +12,12 @@ HPO_EXPERIMENT_NAME = "random-forest-hyperopt"
 EXPERIMENT_NAME = "random-forest-best-models"
 RF_PARAMS = ['max_depth', 'n_estimators', 'min_samples_split', 'min_samples_leaf', 'random_state']
 
+<<<<<<< HEAD
+=======
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_experiment(EXPERIMENT_NAME)
+mlflow.sklearn.autolog()
+>>>>>>> 061ef5d (lesson 2)
 
 
 def load_pickle(filename):
